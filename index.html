@@ -1,0 +1,51 @@
+<DOCTYPE! html>
+<html>
+  <head>
+  	 <title>Guess Me!</title>
+  	 <link rel="stylesheet" href="main.css" type="text/css" charset="utf-8">
+  	 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:400,700,500|Droid+Sans:400,700|Lobster|Pacifico|Quicksand|Crafty+Girls|Changa+One' rel='stylesheet' type='text/css'>
+  	 <link rel="stylesheet" href="reset.css">
+  	 <link rel="stylesheet" href="main.css">
+  	 
+  </head>
+  <body>
+
+    <header>
+  	  <h1>THIS IS <span id="huckle">HUCKLE</span> <span id="buckle">BUCKLE</span> BEANSTALK</h1>
+  	</header>
+
+  	<div id="firstdiv">
+
+  	   <h3>HOW TO PLAY</h3>
+  	   <p>I'll select a random number from 0-100.<br> Now, you have to guess that exact number.<br> If you are getting closer to the number,  you'll get hotter, <br>if not you'll get colder.<br> LETS PLAY!!!</p>
+
+  	</div>
+
+  	<div id="form">
+
+  	   <form>
+  		   <label for="UserChoice">Guess A Number</label>
+  		   <input type="text" id="UserChoice"><br>
+  		   <button type="button" id="check">Check</button>
+         <button type="submit" id="startagain">Start Again</button>
+         <p id="feedback"></p>
+  	   </form>
+
+    </div>
+
+    <div class="progressdiv">
+
+    	<div id="progressBar" style="width: 100%;"></div>
+
+    </div>
+    
+    <footer id="foot">
+    	<p>designed by Mimi</p>
+    </footer>
+
+    <script src="jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="script.js" charset="utf-8"></script>
+
+  </body>
+
+</html>
